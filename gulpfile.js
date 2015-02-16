@@ -13,3 +13,10 @@ gulp.task('tdd', function(done) {
     configFile: __dirname + '/karma.conf.js'
   }, done);
 });
+
+gulp.task('bench', function(done) {
+  karma.start({
+    configFile: __dirname + '/karma-bench.conf.js',
+    singleRun: true
+  }, done);
+});
