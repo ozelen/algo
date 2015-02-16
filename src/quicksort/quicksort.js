@@ -1,3 +1,5 @@
 function quickSort (arr) {
-  return arr.sort();
+  return arr.sort(function (a,b) {
+    return a-b;
+  });
 }
