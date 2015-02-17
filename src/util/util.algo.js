@@ -1,4 +1,5 @@
 var util = {};
+
 util.each = function(array, callback) {
     for (var i = 0; i < array.length; i++) {
         callback(array[i]);
@@ -20,3 +21,11 @@ util.contains = function(haystack, needle) {
     }
     return false;
 };
+
+util.genArray = function (length) {
+  var arr = [], i=0;
+  for (var i = 0; i < length; i++) {
+    arr[i] = Math.floor((Math.random() * 100) + 1); ;
+  };
+  return arr;
+}
