@@ -14,7 +14,7 @@
     "gulp-karma": "0.0.4",
     "jasmine-core": "^2.2.0",
     "karma": "^0.12.31",
-    "karma-benchmark": "lazd/karma-benchmark#skip",
+    "karma-benchmark": "ozelen/karma-benchmark",
     "karma-benchmark-reporter": "^0.1.1",
     "karma-jasmine": "^0.3.5",
     "karma-phantomjs-launcher": "^0.1.4"

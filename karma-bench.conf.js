@@ -1,5 +1,5 @@
 module.exports = function(config) {
-  var dir = 'loops';
+  var dir = 'mergesort';
 
   config.set({
     browsers: ['Chrome'],
